@@ -287,6 +287,7 @@ const propsInboxCommon = {
   filterFocusCount: 0,
   isLoading: false,
   nowOverride: 0, // just for dumb rendering
+  onBuildTeam: action('onBuildTeam'),
   onHotkey: action('onHotkey'),
   onNewChat: action('onNewChat'),
   onSelectDown: action('onSelectDown'),
@@ -306,6 +307,7 @@ const propsInboxCommon = {
 const propsInboxEmpty = {
   ...propsInboxCommon,
   showNewChat: true,
+  showBuildATeam: true,
 }
 
 const propsInboxSimple = {
